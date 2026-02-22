@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My first three.js app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <span class="logo">ClearView Optics</span>
+
+        <div class="menu-items" id="menu">
+          <a href="#try-on">Try-On Solution</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#contact">Contact</a>
+          <button class="btn btn1 mobile-btn">Sign In</button>
+        </div>
+
+        <div class="btn-div desktop-btn">
+          <button class="btn btn1">Sign In</button>
+        </div>
+
+        <div class="hamburger" id="hamburger">☰</div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <!-- LEFT SIDE -->
+          <div class="hero-content">
+            <h1>
+              Clear frame and lens <br />
+              decisions online.
+            </h1>
+
+            <p class="subtext">
+              The independent platform for eyewear e-commerce.
+            </p>
+
+            <p class="highlight-text">
+              Enable accurate
+              <span class="badge blue">Virtual Try-On</span>
+              and realistic
+              <span class="badge orange">Lens Visualization</span>.
+            </p>
+          </div>
+
+          <!-- RIGHT SIDE -->
+          <div class="hero-image">
+            <img src="./New folder/hero.jpeg" alt="Glasses" />
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="trust-badges">
+        <h1>Trusted by leading eyewear retailers globally</h1>
+      </section> -->
+
+      <section class="why">
+        <div class="details-why">
+          <div class="why-circle">
+            <div class="dot"></div>
+            <h4>THE INDUSTRY REALITY</h4>
+          </div>
+          <h2>Why Return Rates Are So High</h2>
+          <p>
+            Online eyewear sales suffer because customers lack two critical
+            pieces of information.
+          </p>
+        </div>
+
+        <div class="why-answer">
+          <div class="why-answer-child why-answer1">
+            <h1>01</h1>
+            <h3>Fit & Suitability Doubt</h3>
+            <p>
+              Customers ask: "Does it fit? Does it suit me?" Static photos can't
+              answer this, leading to hesitation and lower conversion.
+            </p>
+          </div>
+          <div class="why-answer-child why-answer2">
+            <h1>02</h1>
+            <h3>Lens Visualization Gap</h3>
+            <p>
+              Customers ask: "How will this lens look?" They can't see the
+              difference between colors or tints, so they skip upgrades.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="try-on" id="try-on">
+        <div class="try-on-details">
+          <h2>
+            Try On Glasses Virtually with <br />
+            ClearView Optics
+          </h2>
+          <p>
+            ClearView Optics uses advanced face landmark detection to let
+            customers virtually try on glasses. They can see how frames fit and
+            how lenses look in real time, right from their device.
+          </p>
+
+          <ul>
+            <li>
+              <span class="checkmark">✓</span>
+              Accurate fit visualization for all face shapes.
+            </li>
+            <li>
+              <span class="checkmark">✓</span>
+              Realistic lens color and tint previews.
+            </li>
+            <li>
+              <span class="checkmark">✓</span>
+              Easy-to-use interface that boosts confidence and conversion.
+            </li>
+          </ul>
+          <button id="webcamButton">Explore Try-On Experience</button>
+        </div>
+
+        <div class="try-on-picture">
+          <img src="/New folder/tryon.jpeg" alt="" />
+        </div>
+      </section>
+
+      <section class="instruction" id="how-it-works">
+        <div class="instruction-header">
+          <h2>Simple 3-Step Experience</h2>
+          <p>
+            ClearView Optics integrates seamlessly into your shopping journey.
+          </p>
+        </div>
+
+        <div class="instruction-steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Upload Your Photo</h3>
+            <p>
+              Start by uploading a clear photo. Our AI analyzes facial landmarks
+              to ensure accurate frame positioning.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Try On Frames</h3>
+            <p>
+              Instantly preview different frame shapes and sizes in real time.
+              Adjust angle and position naturally.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Explore Lens Options</h3>
+            <p>
+              Switch between lens colors, tints, and coatings to find your
+              perfect look before checkout.
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="bespoke">
+          <div class="bespoke-image">
+            <img src="/New folder/bespoke-eyewear-hero.jpeg" alt="" />
+          </div>
+          <div class="bespoke-details">
+            <h2>Experience Bespoke Eyewear Like Never Before</h2>
+            <p>
+              With ClearView Optics, you can customize your eyewear to match
+              your unique style. Try on different frame shapes, colors, and lens
+              options to create a look that's truly yours.
+            </p>
+          </div>
+        </div> -->
+      </section>
+
+      <section class="contact us" id="contact">
+        <h1>Questions? Get in touch.</h1>
+        <p class="subtitle">We typically respond within 24 hours.</p>
+
+        <section class="layout">
+          <!-- CONTACT FORM -->
+          <div class="card">
+            <div class="contact-step">
+              <span>1</span>
+              <h3>YOUR DETAILS</h3>
+            </div>
+
+            <form>
+              <div class="field">
+                <label>Name (*)</label>
+                <input type="text" placeholder="John Doe" required />
+              </div>
+
+              <div class="field">
+                <label>Work Email (*)</label>
+                <input type="email" placeholder="john@company.com" required />
+              </div>
+
+              <div class="field">
+                <label>Company (*)</label>
+                <input type="text" placeholder="Acme Inc." required />
+              </div>
+
+              <div class="field">
+                <label>Website (*)</label>
+                <input type="url" placeholder="company.com" required />
+              </div>
+            </form>
+            <div class="field-for-comment">
+              <label>ANYTHING ELSE YOU’D LIKE TO SHARE?</label>
+              <textarea
+                name=""
+                id=""
+                placeholder="Describe your situation, questions, or goals"
+              ></textarea>
+            </div>
+            <button class="contact-btn">Send Request</button>
+            <!-- 
+            <div class="contact-step">
+              <span>2</span>
+              <h3>WHAT BEST DESCRIBE WHAT YOU’RE TRYING TO IMPROVE?</h3>
+            </div>
+
+            <form>
+              <div class="field">
+                <label>Name (*)</label>
+                <input type="text" placeholder="John Doe" required />
+              </div>
+
+              <div class="field">
+                <label>Work Email (*)</label>
+                <input type="email" placeholder="john@company.com" required />
+              </div>
+
+              <div class="field">
+                <label>Company (*)</label>
+                <input type="text" placeholder="Acme Inc." required />
+              </div>
+
+              <div class="field">
+                <label>Website (*)</label>
+                <input type="url" placeholder="company.com" required />
+              </div>
+            </form> -->
+          </div>
+
+          <!-- FAQ -->
+          <div class="faq">
+            <h2>Common Questions</h2>
+
+            <details>
+              <summary>
+                1. Is ClearView Optics an AR try-on or beauty filter?
+              </summary>
+              <p>
+                ClearView Optics is an AR try-on solution designed for realistic
+                eyewear visualization, not a beauty filter.
+              </p>
+            </details>
+
+            <details>
+              <summary>
+                2. Does ClearView Optics Try-On provide prescription accuracy?
+              </summary>
+              <p>
+                ClearView Opticsz Try-On is for visual representation only and
+                does not replace professional prescription measurements.
+              </p>
+            </details>
+
+            <details>
+              <summary>
+                3. Can ClearView Optics work with my existing e-commerce setup?
+              </summary>
+              <p>
+                Yes. ClearView Optics integrates with Shopify, PrestaShop, and
+                custom in-house systems. No platform migration is required
+              </p>
+            </details>
+
+            <details>
+              <summary>4. How much does GlassOn cost?</summary>
+              <p>
+                ClearView Optics offers flexible pricing based on your business
+                size and needs. Contact us for a personalized quote.
+              </p>
+            </details>
+
+            <h6>DIRECT EMAIL</h6>
+            <p>
+              <a href="mailto:ifeoluwawixdeveloper@gmail.com"
+                >ifeoluwawixdeveloper@gmail.com</a
+              >
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- LEFT COLUMN -->
+        <div class="footer-brand">
+          <div class="logo">
+            <h2>ClearView Optics</h2>
+          </div>
+
+          <h6>
+            Email :
+            <a href="mailto:ifeoluwawixdeveloper@gmail.com"
+              >ifeoluwawixdeveloper@gmail.com</a
+            >
+          </h6>
+
+          <p class="copyright">© 2026 All rights reserved.</p>
+        </div>
+
+        <!-- PLATFORM -->
+        <div class="footer-column">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#">Try-On Solution</a></li>
+            <li><a href="#">Lens Visualization</a></li>
+            <li><a href="#">Integration</a></li>
+          </ul>
+        </div>
+
+        <!-- COMPANY -->
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- LEGAL -->
+        <div class="footer-column">
+          <h4>Legal & Docs</h4>
+          <ul>
+            <li><a href="#">Photo Guide</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <section id="demos" class="invisible">
+      <div id="liveView" class="videoView">
+        <div class="try-on-overlay" id="tryOnModal">
+          <div class="modal-box">
+            <button id="closeModal" class="close-btn">&times;</button>
+
+            <video id="webcam" class="webcam" autoplay playsinline></video>
+            <canvas class="output_canvas" id="output_canvas"></canvas>
+            <canvas id="three_canvas" class="three_canvas"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- This is a practice for a modal -->
+    <!-- 
+    <section class="modal-practice">
+      <button id="open-modal">Enable Modal</button>
+      <div class="modal-overlay">
+        <div class="modal">
+          <button id="close-modal">Close Modal</button>
+          <h2>Modal Title</h2>
+          <p>This is a modal. Click outside to close.</p>
+          <div class="picture">
+            <img src="/New folder/tryon.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const menu = document.getElementById("menu");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+
+        if (menu.classList.contains("active")) {
+          hamburger.innerHTML = "✕";
+          document.body.style.overflow = "hidden";
+        } else {
+          hamburger.innerHTML = "☰";
+          document.body.style.overflow = "auto";
+        }
+      });
+
+      document.querySelectorAll(".menu-items a").forEach((link) => {
+        link.addEventListener("click", () => {
+          menu.classList.remove("active");
+          hamburger.innerHTML = "☰";
+          document.body.style.overflow = "auto";
+        });
+      });
+    </script>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

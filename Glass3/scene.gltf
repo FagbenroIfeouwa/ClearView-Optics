@@ -1,0 +1,422 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7165,
+      "max": [
+        0.7223297357559204,
+        0.03468102589249611,
+        0.23795239627361298
+      ],
+      "min": [
+        -0.7223296761512756,
+        -0.10045409202575684,
+        -0.1988571286201477
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 85980,
+      "componentType": 5126,
+      "count": 7165,
+      "max": [
+        0.9992287158966064,
+        0.9999912977218628,
+        0.9999762773513794
+      ],
+      "min": [
+        -0.9992287158966064,
+        -0.9999912977218628,
+        -0.9999791383743286
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7165,
+      "max": [
+        0.8750001788139343,
+        1.0000001192092896
+      ],
+      "min": [
+        0.1250000149011612,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 39168,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 171960,
+      "componentType": 5126,
+      "count": 42,
+      "max": [
+        0.6353444457054138,
+        0.010877173393964767,
+        0.18476468324661255
+      ],
+      "min": [
+        -0.635344386100769,
+        -0.05711088329553604,
+        -0.16623973846435547
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 172464,
+      "componentType": 5126,
+      "count": 42,
+      "max": [
+        0.1662978231906891,
+        -0.984785795211792,
+        -0.01821974478662014
+      ],
+      "min": [
+        -0.1662978231906891,
+        -0.9964705109596252,
+        -0.05041732266545296
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 57320,
+      "componentType": 5126,
+      "count": 42,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 156672,
+      "componentType": 5125,
+      "count": 144,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 172968,
+      "componentType": 5126,
+      "count": 1310,
+      "max": [
+        0.4932405352592468,
+        0.3084760308265686,
+        0.6112021207809448
+      ],
+      "min": [
+        -0.4932405650615692,
+        0.08929447829723358,
+        -0.3623010218143463
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 188688,
+      "componentType": 5126,
+      "count": 1310,
+      "max": [
+        0.9999781250953674,
+        0.9995909333229065,
+        0.9297868609428406
+      ],
+      "min": [
+        -0.9999781847000122,
+        -0.9999359846115112,
+        -0.9989190101623535
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 157248,
+      "componentType": 5125,
+      "count": 7680,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "assetfactory (https://sketchfab.com/assetfactory)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/white-sunglasses-79423b5af040464495ebd44e5e9f6390",
+      "title": "White sunglasses"
+    },
+    "generator": "Sketchfab-16.33.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 187968,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 57656,
+      "byteOffset": 187968,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 204408,
+      "byteOffset": 245624,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 450032,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "WhitePlastic2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0487983024487303
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "BlackGlass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.00364186,
+          0.00364186,
+          0.00364186,
+          0.9806884653406122
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0008143446524537383
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.002_WhitePlastic2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube.004_BlackGlass_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane.002_WhitePlastic2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8
+          },
+          "indices": 10,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sunglasses_4.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        87.72528076171875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.4292262341538377e-05,
+        -87.72528076171758,
+        0.0,
+        0.0,
+        91.73879241943239,
+        -1.4946146387560315e-05,
+        0.0,
+        0.0,
+        18.434123992919922,
+        4.062342643737793,
+        1.0
+      ],
+      "name": "Cube.002"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube.002_WhitePlastic2_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        87.72528076171875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.4292262341538377e-05,
+        -87.72528076171758,
+        0.0,
+        0.0,
+        91.73879241943239,
+        -1.4946146387560315e-05,
+        0.0,
+        0.0,
+        18.434123992919922,
+        4.062342643737793,
+        1.0
+      ],
+      "name": "Cube.004"
+    },
+    {
+      "mesh": 1,
+      "name": "Cube.004_BlackGlass_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        120.5807113647461,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        120.58071136474449,
+        1.964509037289712e-05,
+        0.0,
+        0.0,
+        -1.964509037289712e-05,
+        120.58071136474449,
+        0.0,
+        0.0,
+        -7.725118160247803,
+        -71.493896484375,
+        1.0
+      ],
+      "name": "Plane.002"
+    },
+    {
+      "mesh": 2,
+      "name": "Plane.002_WhitePlastic2_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+Client Brief: Virtual Glasses Try On Page
+
+Client name: ClearView Optics
+Business: Online eyewear brand selling prescription and fashion glasses
+Goal: Reduce hesitation before purchase and increase confidence by letting users virtually try on glasses.
+
+What I want (as the client)
+
+I need a single landing page on my website where visitors can:
+
+Try on different glasses virtually using their camera
+
+Switch between different frame styles easily
+
+See how the glasses fit their face in real time
+
+Feel confident enough to click “Buy” or “View Product”
+
+This page will be linked from my product pages and ads.
+
+Page Sections I Expect
+
+1. Hero Section
+
+At the top of the page, I want:
+
+Headline like:
+“Try Before You Buy. See How Our Glasses Look on You.”
+
+Short subtext explaining the feature in simple words
+
+A big “Start Virtual Try On” button
+
+2. Virtual Try On Area (Main Feature)
+
+This is the most important part.
+
+I want:
+
+Camera access with user permission
+
+Face detection so glasses align properly
+
+A default model loads first before camera starts (for users who deny camera access)
+
+Smooth performance, no laggy experience
+
+Controls:
+
+Buttons or thumbnails to switch between frames
+
+Option to change:
+
+Frame color
+
+Frame size (Small, Medium, Large)
+
+Toggle to turn camera on or off
+
+3. Example Glasses to Use
+
+You can use dummy data for the portfolio.
+
+For example:
+
+Classic Black Frame
+
+Transparent Frame
+
+Gold Metal Frame
+
+Round Frame
+
+Square Frame
+
+Each should have:
+
+Name
+
+Price (fake is fine)
+
+“Try On” button
+
+4. Instruction Section (Very Important)
+
+Some users are not tech savvy.
+
+I want a small section that says:
+
+Allow camera access
+
+Position your face within the frame
+
+Select a style to try on
+
+Adjust and compare looks
+
+Simple icons or steps would be nice.
+
+5. Call To Action
+
+At the bottom:
+
+“Love how it looks?”
+
+Buttons:
+
+“Buy Now”
+
+“View Full Collection”
+
+Even if these don’t work, they should look real.
+
+Design Expectations
+
+Clean and modern
+
+White or light background
+
+Looks trustworthy (health and fashion brand)
+
+Mobile friendly
+
+No clutter
+
+Think Apple, Warby Parker, or Ray Ban style.
+
+Technical Expectations (for your portfolio explanation)
+
+As a client, I’d be impressed if you mention:
+
+Web-based virtual try on (no app download)
+
+Face tracking / landmark detection
+
+Optimized for performance
+
+Privacy friendly (no image storage)
+
+You don’t need to build a full ecommerce system.
+The focus is user experience + interaction.
+
+What I will judge you on (as a client)
+
+How real the experience feels
+
+How clear the UI is
+
+How fast the try on loads
+
+Whether I immediately understand how to use it
+
+If you want, next we can:
+
+Turn this into a portfolio case study
+
+Write the project description recruiters love
+
+Decide what to fake vs what to actually build
+
+Map features to frontend only if you want to avoid heavy ML
+
+Just tell me the next step you want to take.
+
+what should the navbar have?
+
+Good question. The navbar is subtle, but it signals professionalism instantly in a portfolio.
+
+I’ll answer this as the client, then tell you why it works for your portfolio.
+
+What I Want in the Navbar (Client View)
+
+I don’t want anything crowded. This is not a full ecommerce site.
+I want the navbar to feel calm, premium, and focused.
+
+Left side
+
+ClearView Optics
+or a simple logo icon + name
+
+Clicking it should go back to the home section.
+
+Center or Right side (Links)
+
+I want 4 to 5 items max:
+
+Try On
+
+Scrolls directly to the virtual try on section
+
+This is the main action, so it should stand out slightly
+
+Frames
+
+Opens a dropdown or scrolls to the frames list
+
+Shows available styles users can try
+
+How It Works
+
+Scrolls to the instruction section
+
+Helps first time users feel comfortable
+
+About
+
+Very short explanation of the brand or technology
+
+Can be a modal instead of a full page
+
+Contact (Optional)
+
+Simple email or demo request
+
+For portfolio, this can link to you
